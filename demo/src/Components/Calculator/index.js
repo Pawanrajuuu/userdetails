@@ -49,7 +49,7 @@ const Calculator = () => {
         <button onClick = {decreaseOnWeight}>Decrease</button>
       </div>
       <div>
-        <h1>{BmiCalculator(height,weight)}</h1>
+        <h1>your BMI :- {BmiCalculator(height,weight)}</h1>
       </div>
     </div>
   )
